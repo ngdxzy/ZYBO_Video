@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="" key="demo_wrapper_hw_platform_0-bmmFile"/>
+	<item value="D:\Project\Vivado\Terminated_project\ZYBO_Video\ZYBO_Video.runs\impl_1\demo_wrapper.bit" key="demo_wrapper_hw_platform_0-bitFile"/>
+	<item value="demo_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="D:\Project\Vivado\Terminated_project\ZYBO_Video\ZYBO_Video.runs\impl_1\demo_wrapper.bit" key="demo_wrapper_hw_platform_1-bitFile"/>
+	<item value="false" key="demo_wrapper_hw_platform_1-partial_bit"/>
+	<item value="Auto Detect" key="demo_wrapper_hw_platform_0-device"/>
+	<item value="false" key="demo_wrapper_hw_platform_0-partial_bit"/>
+	<item value="Auto Detect" key="demo_wrapper_hw_platform_1-device"/>
+	<item value="Local" key="demo_wrapper_hw_platform_0-target"/>
+	<item value="" key="demo_wrapper_hw_platform_1-bmmFile"/>
+	<item value="Local" key="demo_wrapper_hw_platform_1-target"/>
+</section>

@@ -1,0 +1,84 @@
+
+*** Running vivado
+    with args -log demo_system_ila_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source demo_system_ila_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source demo_system_ila_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 447.617 ; gain = 96.691
+INFO: [Synth 8-638] synthesizing module 'demo_system_ila_0_0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ip/demo_system_ila_0_0/synth/demo_system_ila_0_0.v:206]
+INFO: [Synth 8-638] synthesizing module 'bd_5f45' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ip/demo_system_ila_0_0/bd_0/hdl/bd_5f45.v:13]
+INFO: [Synth 8-638] synthesizing module 'bd_5f45_g_inst_0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ip/demo_system_ila_0_0/bd_0/ip/ip_1/synth/bd_5f45_g_inst_0.v:116]
+INFO: [Synth 8-638] synthesizing module 'bd_5f45_g_inst_0_gigantic_mux' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ip/demo_system_ila_0_0/bd_0/ip/ip_1/bd_5f45_g_inst_0_gigantic_mux.v:63]
+INFO: [Synth 8-256] done synthesizing module 'bd_5f45_g_inst_0_gigantic_mux' (2#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ip/demo_system_ila_0_0/bd_0/ip/ip_1/bd_5f45_g_inst_0_gigantic_mux.v:63]
+INFO: [Synth 8-256] done synthesizing module 'bd_5f45_g_inst_0' (3#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ip/demo_system_ila_0_0/bd_0/ip/ip_1/synth/bd_5f45_g_inst_0.v:116]
+INFO: [Synth 8-638] synthesizing module 'bd_5f45_ila_lib_0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ip/demo_system_ila_0_0/bd_0/ip/ip_0/synth/bd_5f45_ila_lib_0.v:84]
+INFO: [Synth 8-638] synthesizing module 'CFGLUT5' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:998]
+INFO: [Synth 8-256] done synthesizing module 'CFGLUT5' (11#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:998]
+INFO: [Synth 8-638] synthesizing module 'CARRY4' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:961]
+INFO: [Synth 8-256] done synthesizing module 'CARRY4' (12#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:961]
+INFO: [Synth 8-638] synthesizing module 'SRLC32E' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43823]
+INFO: [Synth 8-256] done synthesizing module 'SRLC32E' (22#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43823]
+INFO: [Synth 8-638] synthesizing module 'SRL16E' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43673]
+INFO: [Synth 8-256] done synthesizing module 'SRL16E' (24#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43673]
+INFO: [Synth 8-638] synthesizing module 'SRLC16E' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43762]
+INFO: [Synth 8-256] done synthesizing module 'SRLC16E' (26#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43762]
+INFO: [Synth 8-638] synthesizing module 'FDRE' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'FDRE' (31#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'bd_5f45_ila_lib_0' (49#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ip/demo_system_ila_0_0/bd_0/ip/ip_0/synth/bd_5f45_ila_lib_0.v:84]
+INFO: [Synth 8-638] synthesizing module 'bd_5f45_slot_0_apcs_0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ip/demo_system_ila_0_0/bd_0/ip/ip_2/synth/bd_5f45_slot_0_apcs_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'axis_protocol_checker_v1_1_13_top' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/cdb5/hdl/axis_protocol_checker_v1_1_vl_rfs.v:657]
+INFO: [Synth 8-638] synthesizing module 'axis_protocol_checker_v1_1_13_asr_inline' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/cdb5/hdl/axis_protocol_checker_v1_1_vl_rfs.v:55]
+INFO: [Synth 8-256] done synthesizing module 'axis_protocol_checker_v1_1_13_asr_inline' (50#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/cdb5/hdl/axis_protocol_checker_v1_1_vl_rfs.v:55]
+INFO: [Synth 8-638] synthesizing module 'axis_protocol_checker_v1_1_13_reporter' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/cdb5/hdl/axis_protocol_checker_v1_1_vl_rfs.v:536]
+INFO: [Synth 8-256] done synthesizing module 'axis_protocol_checker_v1_1_13_reporter' (51#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/cdb5/hdl/axis_protocol_checker_v1_1_vl_rfs.v:536]
+INFO: [Synth 8-256] done synthesizing module 'axis_protocol_checker_v1_1_13_top' (52#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/cdb5/hdl/axis_protocol_checker_v1_1_vl_rfs.v:657]
+INFO: [Synth 8-256] done synthesizing module 'bd_5f45_slot_0_apcs_0' (53#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ip/demo_system_ila_0_0/bd_0/ip/ip_2/synth/bd_5f45_slot_0_apcs_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_5f45' (54#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ip/demo_system_ila_0_0/bd_0/hdl/bd_5f45.v:13]
+INFO: [Synth 8-256] done synthesizing module 'demo_system_ila_0_0' (55#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ip/demo_system_ila_0_0/synth/demo_system_ila_0_0.v:206]
+Finished RTL Elaboration : Time (s): cpu = 00:01:02 ; elapsed = 00:01:02 . Memory (MB): peak = 771.059 ; gain = 420.133
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 771.059 ; gain = 420.133
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.083 . Memory (MB): peak = 835.484 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:01:15 ; elapsed = 00:01:16 . Memory (MB): peak = 835.484 ; gain = 484.559
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:15 ; elapsed = 00:01:16 . Memory (MB): peak = 835.484 ; gain = 484.559
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:15 ; elapsed = 00:01:16 . Memory (MB): peak = 835.484 ; gain = 484.559
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:18 ; elapsed = 00:01:19 . Memory (MB): peak = 835.484 ; gain = 484.559
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:25 ; elapsed = 00:01:27 . Memory (MB): peak = 835.484 ; gain = 484.559
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:35 ; elapsed = 00:01:37 . Memory (MB): peak = 835.484 ; gain = 484.559
+Finished Timing Optimization : Time (s): cpu = 00:01:36 ; elapsed = 00:01:37 . Memory (MB): peak = 835.484 ; gain = 484.559
+Finished Technology Mapping : Time (s): cpu = 00:01:37 ; elapsed = 00:01:38 . Memory (MB): peak = 835.484 ; gain = 484.559
+Finished IO Insertion : Time (s): cpu = 00:01:37 ; elapsed = 00:01:39 . Memory (MB): peak = 835.484 ; gain = 484.559
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:37 ; elapsed = 00:01:39 . Memory (MB): peak = 835.484 ; gain = 484.559
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:38 ; elapsed = 00:01:39 . Memory (MB): peak = 835.484 ; gain = 484.559
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:38 ; elapsed = 00:01:39 . Memory (MB): peak = 835.484 ; gain = 484.559
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:38 ; elapsed = 00:01:39 . Memory (MB): peak = 835.484 ; gain = 484.559
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:38 ; elapsed = 00:01:39 . Memory (MB): peak = 835.484 ; gain = 484.559
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    44|
+|2     |CFGLUT5  |   125|
+|3     |LUT1     |    41|
+|4     |LUT2     |    78|
+|5     |LUT3     |   102|
+|6     |LUT4     |   196|
+|7     |LUT5     |   102|
+|8     |LUT6     |   560|
+|9     |MUXF7    |    21|
+|10    |RAMB18E1 |     1|
+|11    |RAMB36E1 |     2|
+|12    |SRL16E   |    86|
+|13    |SRLC16E  |     2|
+|14    |SRLC32E  |    17|
+|15    |FDRE     |  1905|
+|16    |FDSE     |     9|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:38 ; elapsed = 00:01:39 . Memory (MB): peak = 835.484 ; gain = 484.559
+synth_design: Time (s): cpu = 00:01:41 ; elapsed = 00:01:42 . Memory (MB): peak = 835.484 ; gain = 484.559

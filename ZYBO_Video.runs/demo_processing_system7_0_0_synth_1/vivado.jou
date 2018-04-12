@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Oct 12 12:42:11 2017
+# Process ID: 11992
+# Current directory: D:/Project/Vivado/Terminated_project/ZYBO_Video/ZYBO_Video.runs/demo_processing_system7_0_0_synth_1
+# Command line: vivado.exe -log demo_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source demo_processing_system7_0_0.tcl
+# Log file: D:/Project/Vivado/Terminated_project/ZYBO_Video/ZYBO_Video.runs/demo_processing_system7_0_0_synth_1/demo_processing_system7_0_0.vds
+# Journal file: D:/Project/Vivado/Terminated_project/ZYBO_Video/ZYBO_Video.runs/demo_processing_system7_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source demo_processing_system7_0_0.tcl -notrace

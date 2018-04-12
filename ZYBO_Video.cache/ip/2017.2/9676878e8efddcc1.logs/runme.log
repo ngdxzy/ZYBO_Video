@@ -1,0 +1,304 @@
+
+*** Running vivado
+    with args -log demo_axi_vdma_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source demo_axi_vdma_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source demo_axi_vdma_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 365.719 ; gain = 83.621
+INFO: [Synth 8-638] synthesizing module 'demo_axi_vdma_0_0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ip/demo_axi_vdma_0_0/synth/demo_axi_vdma_0_0.vhd:131]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:69480]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_rst_module' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:16457]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reset' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:14862]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reset' (1#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:14862]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_rst_module' (2#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:16457]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_if' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:39644]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_lite_if' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:16952]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_lite_if' (3#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:16952]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_if' (4#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:39644]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_intrpt' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:40370]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_intrpt' (5#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:40370]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_module' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:38829]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_register' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:18712]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_register' (6#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:18712]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_regdirect' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:20526]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_regdirect' (7#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:20526]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_mux' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:29591]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_mux' (8#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:29591]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_module' (9#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:38829]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_mngr' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:63815]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sm' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:61558]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sm' (10#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:61558]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_cmdsts_if' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:62697]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_cmdsts_if' (11#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:62697]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sts_mngr' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:63204]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sts_mngr' (12#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:63204]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_vidreg_module' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:55739]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_vregister' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:53625]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vregister' (13#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:53625]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_vaddrreg_mux' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:55216]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vaddrreg_mux' (14#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:55216]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vidreg_module' (15#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:55739]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_genlock_mngr' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:58282]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_genlock_mux' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:57020]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_genlock_mux' (16#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:57020]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_greycoder' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:57995]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_greycoder' (17#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:57995]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_greycoder__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:57995]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_greycoder__parameterized0' (17#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:57995]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_genlock_mngr' (18#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:58282]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_mngr' (19#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:63815]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_fsync_gen' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:52754]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_fsync_gen' (20#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:52754]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_vid_cdc' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:13249]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vid_cdc' (21#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:13249]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sof_gen' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:40980]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sof_gen' (22#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:40980]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_mm2s_linebuf' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:45948]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sfifo' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:41782]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sfifo' (49#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:41782]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_skid_buf' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:41227]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_skid_buf' (50#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:41227]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_mm2s_linebuf' (51#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:45948]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_module__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:38829]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_register__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:18712]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_register__parameterized0' (51#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:18712]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_regdirect__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:20526]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_regdirect__parameterized0' (51#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:20526]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_mux__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:29591]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_mux__parameterized0' (51#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:29591]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_module__parameterized0' (51#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:38829]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_mngr__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:63815]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sm__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:61558]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sm__parameterized0' (51#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:61558]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_cmdsts_if__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:62697]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_cmdsts_if__parameterized0' (51#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:62697]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_genlock_mngr__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:58282]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_genlock_mngr__parameterized0' (51#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:58282]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_mngr__parameterized0' (51#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:63815]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_fsync_gen__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:52754]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_fsync_gen__parameterized0' (51#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:52754]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_s2mm_linebuf' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:48936]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sfifo__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:41782]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sfifo__parameterized0' (51#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:41782]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_s2mm_linebuf' (52#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:48936]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:55410]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_mm2s_full_wrap' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:53548]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_reset' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_reset' (53#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_cmd_status' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:2693]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f' (54#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f' (55#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f' (56#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f' (57#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo' (58#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized0' (58#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized0' (58#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized0' (58#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized0' (58#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_cmd_status' (59#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:2693]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rd_status_cntl' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:13741]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rd_status_cntl' (60#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:13741]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_pcc' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:7411]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2' (61#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2__parameterized0' (61#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_pcc' (62#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:7411]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_addr_cntl' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:9995]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized1' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized1' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized1' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized1' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized1' (62#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized1' (62#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized1' (62#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized1' (62#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_addr_cntl' (63#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:9995]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rddata_cntl' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:12180]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rdmux' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:10676]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rdmux' (64#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:10676]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized2' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized2' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized2' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized2' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized2' (64#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized2' (64#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized2' (64#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized2' (64#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rddata_cntl' (65#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:12180]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rd_sf' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:20200]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/c387/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg' (69#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/c387/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord' (70#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rd_sf' (71#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:20200]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mm2s_full_wrap' (72#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:53548]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_full_wrap' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:49982]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_cmd_status__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:2693]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized3' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized3' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized3' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized3' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized3' (72#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized3' (72#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized3' (72#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized3' (72#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_cmd_status__parameterized0' (72#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:2693]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_wr_status_cntl' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:17697]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized4' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized4' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized4' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized0' (72#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized4' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized4' (72#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized4' (72#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized4' (72#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized4' (72#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized5' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized5' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized5' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized5' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized5' (72#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized5' (72#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized5' (72#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized5' (72#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wr_status_cntl' (73#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:17697]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_ibttcc' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:25723]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_ibttcc' (74#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:25723]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_realign' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:46998]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized6' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized6' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized6' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized6' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized6' (74#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized6' (74#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized6' (74#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized6' (74#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_scatter' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:45105]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_mssai_skid_buf' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:44155]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_ms_strb_set' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:42595]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_ms_strb_set' (75#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:42595]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mssai_skid_buf' (76#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:44155]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2__parameterized1' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2__parameterized1' (76#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_slice' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:44844]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_slice' (77#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:44844]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized7' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized7' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized7' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized1' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized1' (77#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized7' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized7' (77#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized7' (77#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized7' (77#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized7' (77#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_scatter' (78#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:45105]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_realign' (79#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:46998]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_indet_btt' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:28422]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_stbs_set' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:23402]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_stbs_set' (80#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:23402]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/c387/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg__parameterized0' (81#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/c387/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord__parameterized0' (81#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord__parameterized1' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg__parameterized1' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/c387/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg__parameterized1' (81#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/c387/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord__parameterized1' (81#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_stbs_set__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:23402]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_stbs_set__parameterized0' (81#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:23402]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid_buf' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:19492]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid_buf' (82#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:19492]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_indet_btt' (83#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:28422]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_addr_cntl__parameterized0' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:9995]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_addr_cntl__parameterized0' (83#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:9995]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_wrdata_cntl' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:15669]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized8' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized8' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized8' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized8' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized8' (83#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized8' (83#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized8' (83#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized8' (83#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wrdata_cntl' (84#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:15669]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid2mm_buf' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:18990]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_wr_demux' [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:14112]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wr_demux' (85#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:14112]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid2mm_buf' (86#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:18990]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_full_wrap' (87#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:49982]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover' (88#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/43a6/hdl/axi_datamover_v5_1_vh_rfs.vhd:55410]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma' (89#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ipshared/450f/hdl/axi_vdma_v6_3_rfs.vhd:69480]
+INFO: [Synth 8-256] done synthesizing module 'demo_axi_vdma_0_0' (90#1) [d:/Project/Vivado/ZYBO_Video/ZYBO_Video.srcs/sources_1/bd/demo/ip/demo_axi_vdma_0_0/synth/demo_axi_vdma_0_0.vhd:131]
+Finished RTL Elaboration : Time (s): cpu = 00:06:43 ; elapsed = 00:06:46 . Memory (MB): peak = 693.480 ; gain = 411.383
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:06:44 ; elapsed = 00:06:47 . Memory (MB): peak = 693.480 ; gain = 411.383
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.128 . Memory (MB): peak = 816.789 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:07:01 ; elapsed = 00:07:05 . Memory (MB): peak = 816.789 ; gain = 534.691
+Finished Loading Part and Timing Information : Time (s): cpu = 00:07:01 ; elapsed = 00:07:05 . Memory (MB): peak = 816.789 ; gain = 534.691
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:07:01 ; elapsed = 00:07:05 . Memory (MB): peak = 816.789 ; gain = 534.691
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:07:08 ; elapsed = 00:07:12 . Memory (MB): peak = 816.789 ; gain = 534.691
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:07:21 ; elapsed = 00:07:28 . Memory (MB): peak = 816.789 ; gain = 534.691
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+--------------+
+|Module Name          | RTL Object                                                                                                                                                                                                                      | Inference      | Size (Depth x Width) | Primitives   | 
++---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+--------------+
+|U0/I_PRMRY_DATAMOVER | GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 16 x 9               | RAM32M x 2   | 
++---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:07:34 ; elapsed = 00:07:41 . Memory (MB): peak = 816.789 ; gain = 534.691
+Finished Timing Optimization : Time (s): cpu = 00:07:38 ; elapsed = 00:07:46 . Memory (MB): peak = 822.117 ; gain = 540.020
+Finished Technology Mapping : Time (s): cpu = 00:07:41 ; elapsed = 00:07:49 . Memory (MB): peak = 824.785 ; gain = 542.688
+Finished IO Insertion : Time (s): cpu = 00:07:42 ; elapsed = 00:07:50 . Memory (MB): peak = 824.785 ; gain = 542.688
+Finished Renaming Generated Instances : Time (s): cpu = 00:07:42 ; elapsed = 00:07:50 . Memory (MB): peak = 824.785 ; gain = 542.688
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:07:43 ; elapsed = 00:07:51 . Memory (MB): peak = 824.785 ; gain = 542.688
+Finished Renaming Generated Ports : Time (s): cpu = 00:07:43 ; elapsed = 00:07:51 . Memory (MB): peak = 824.785 ; gain = 542.688
+Finished Handling Custom Attributes : Time (s): cpu = 00:07:43 ; elapsed = 00:07:51 . Memory (MB): peak = 824.785 ; gain = 542.688
+Finished Renaming Generated Nets : Time (s): cpu = 00:07:43 ; elapsed = 00:07:51 . Memory (MB): peak = 824.785 ; gain = 542.688
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |CARRY4     |    84|
+|2     |LUT1       |   560|
+|3     |LUT2       |   418|
+|4     |LUT3       |   551|
+|5     |LUT4       |   389|
+|6     |LUT5       |   365|
+|7     |LUT6       |   595|
+|8     |MUXCY      |    48|
+|9     |MUXF7      |     1|
+|10    |RAM32M     |     2|
+|11    |RAMB36E1   |     2|
+|12    |RAMB36E1_1 |     4|
+|13    |SRL16E     |   258|
+|14    |FDRE       |  2848|
+|15    |FDSE       |   106|
++------+-----------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:07:43 ; elapsed = 00:07:51 . Memory (MB): peak = 824.785 ; gain = 542.688
+synth_design: Time (s): cpu = 00:07:48 ; elapsed = 00:07:56 . Memory (MB): peak = 824.785 ; gain = 550.453
